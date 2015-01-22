@@ -1,0 +1,264 @@
+/* Content Text*/
+
+.cta-text{
+    margin-top: 5px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.cta-text h2 span {
+    color: #68a4c4;
+}
+
+
+/* global style safari*/
+  body{
+              padding-top: 40px;
+              padding-bottom: 0px;
+              background-color: #f5f5f5;
+          }
+         .form-signin {
+              position: relative;
+              width: 300px;
+              top: 50%;
+              overflow: auto;
+              /*padding: 19px 29px 29px;*/
+              margin: 0 auto 24px;
+              background-color: #fff;
+              border: 1px solid #ccc;
+              -webkit-border-radius: 6px;
+                 -moz-border-radius: 6px;
+                      border-radius: 6px;
+              -webkit-box-shadow: 0 0 6px rgba(0,0,0,.0.5);
+                 -moz-box-shadow: 0 0 6px rgba(0,0,0,.0.5);
+                      box-shadow: 0 0 6px rgba(0,0,0,.0.5);
+            }
+            .form-signin,
+            .form-signin .checkbox {
+              margin-bottom: 10px;
+              
+            }
+            .form-signin-heading{
+                text-shadow: 0 1px 0 rgba(255,255,255,.5);  
+                font: 100 18px/42px 'PT Sans',sans-serif; 
+                height: 50px;
+                padding: 0px 20px 10px 20px;
+                background: #e0e0e0;
+                border-bottom: 10px solid #ccc;
+                margin: 0;
+                -moz-border-radius-topleft:6px;
+                -moz-border-radius-topright:6px;
+                -moz-border-radius-bottomright:0px;
+                -moz-border-radius-bottomleft:0px;
+                -webkit-border-radius:6px 6px 0px 0px;
+                border-radius: 6px 6px 0px 0px;
+                font-size: 20px;
+            }
+            .form-signin-footer{
+                padding: 12px 20px;
+                border-top: 1px solid #e7e7e7;
+                
+            }
+            .form-signin input[type="text"],
+            .form-signin input[type="password"] {
+              font-size: 16px;
+              height: auto;
+              margin-bottom: 15px;
+              padding: 7px 9px;
+              width: auto;
+            }
+            .form-sign-ons{
+                height: 36px;
+            }
+
+/* Login Page*/
+.login_page{
+    overflow: auto;
+}
+.login_page body{
+  height: 100%;
+  max-width: inherit;
+  margin: 0 20px;
+}
+.login_page,
+.login_box{
+  position: relative;
+  top: 50%;
+  width: 380px;
+  margin: 0 auto 24px;
+  background: #fff;
+  border: 1px solid #ccc;
+    -webkit-border-radius: 6px;
+     -moz-border-radius: 5px;
+     -ms-border-radius:6px;
+     border-radius: 6px;
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.2);
+                 -moz-box-shadow: 0 0 6px rgba(0,0,0,0.2);
+                      box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  
+}
+.login_box{
+  position: relative;
+  top: 50%;
+  width: 380px;
+  margin: 0 auto 24px;
+  background: #fff;
+  border: 1px solid #ccc;
+    -webkit-border-radius: 6px;
+     -moz-border-radius: 5px;
+     -ms-border-radius:6px;
+     border-radius: 6px;
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.2);
+                 -moz-box-shadow: 0 0 6px rgba(0,0,0,0.2);
+                      box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  
+}
+.login_b{
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);  
+    font: 100 18px/42px 'PT Sans',sans-serif; 
+    height: 42px;
+    padding: 0 20px;
+    background: #e0e0e0;
+    border-bottom: 1px solid #ccc;
+    -moz-border-radius-topleft:6px;
+    -moz-border-radius-topright:6px;
+    -moz-border-radius-bottomright:0px;
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-radius:6px 6px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
+    font-size: 15px;
+}
+.group_form{
+    padding: 30px 0;
+    width: 66%;
+    margin: 0 auto;
+}
+
+/* footer */
+footer {
+    
+    color: #f8f8f8;
+    background: none repeat scroll 0 0 #68a4c4;
+    padding: 50px 0 0;
+}
+#sub-footer {
+    background: none repeat scroll 0 0 #68a4c4;
+    color: #f5f5f5;
+    margin: 20px 0 0;
+    padding: 55px 0 0;
+    text-shadow: none;
+}
+footer .widget form  input#appendedInputButton {
+		  display: block;
+		  width: 91%;
+		  -webkit-border-radius: 4px 4px 4px 4px;
+			 -moz-border-radius: 4px 4px 4px 4px;
+				  border-radius: 4px 4px 4px 4px;
+	}
+	
+	footer .widget form  .input-append .btn {
+		  display: block;
+		  width: 100%;
+		  padding-right: 0;
+		  padding-left: 0;
+		  -webkit-box-sizing: border-box;
+			 -moz-box-sizing: border-box;
+				  box-sizing: border-box;
+				  margin-top:10px;
+	}
+footer .col-lg-1, footer .col-lg-2, footer .col-lg-3, footer .col-lg-4, footer .col-lg-5, footer .col-lg-6, 
+	footer .col-lg-7, footer .col-lg-8, footer .col-lg-9, footer .col-lg-10, footer .col-lg-11, footer .col-lg-12{
+		margin-bottom:20px;
+	}
+ #sub-footer ul.social-network {
+		float:left;
+	}
+ footer ul.link-list li a{
+	color:#fff;
+}
+footer ul.link-list li a:hover {
+	color:#eee;
+}
+footer .widgetheading {
+	position: relative;
+}
+
+footer .widget .social-network {
+	position:relative;
+}
+
+
+#bottom .widget .widgetheading span, aside .widget .widgetheading span, footer .widget .widgetheading span {	
+	position: absolute;
+	width: 60px;
+	height: 1px;
+	bottom: -1px;
+	right:0;
+
+}      
+footer address {
+    line-height: 1.6em;
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+    color: #fff;
+}
+footer a {
+	color:#fff;
+}
+ul.link-list {
+    list-style: outside none none;
+}
+.copyright {
+    font-size: 15px;
+    text-align: left;
+}
+ul.social-network {
+    float: left;
+}
+ul.social-network {
+    list-style: outside none none;
+    margin: 0;
+}
+ul.social-network {
+    float: right;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+.footer .widget .flickr_badge {
+    width: 100%;
+}
+.widget .flickr_badge {
+    width: 100%;
+}
+.flickr_badge img {
+    float: left;
+    height: 50px;
+    margin: 0 9px 20px 0;
+    width: 50px;
+}
+/* ===================================
+6. Sliders
+==================================== */
+/* --- flexslider --- */
+#featured {
+    background: none repeat scroll 0 0 #fcfcfc;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+
+#featured .flexslider {
+	padding:0;
+	margin: 50px 0 30px; 
+	background: #fff; 
+	position: relative; 
+	zoom: 1;
+}
+
+.flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0.8); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
+.flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
+.flex-caption p {margin: 0 0 15px;}
