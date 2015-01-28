@@ -10,8 +10,6 @@
         
         <!-- Begin Link Created Safari-->
         <link href="<?php echo base_url('assets/css/default.css');?>" rel="stylesheet"/>
-        <link href="<?php echo base_url('assets/css/jquery-ui.css');?>" rel="stylesheet"/>
-        <link href="<?php echo base_url('assets/css/jquery-ui.theme.min.css');?>" rel="stylesheet"/>
         <!-- End Link Created Safari-->
     </head>
 <body>
@@ -32,9 +30,9 @@
                     </ul>
                  
                     <div class="nav navbar-nav navbar-right">
-                        <form class="navbar-form navbar-left" role="search" action="<?php echo site_url('web/cari_buku');?>" method="post">
+                        <form class="navbar-form navbar-left" role="search" action="<?php echo site_url('web/search_customers');?>" method="post">
                             <div class="form-group">
-                                <input type="text" name="cari" class="form-control" placeholder="Search Members"/>
+                                <input type="text" name="search" class="form-control" placeholder="Search Customers"/>
                             </div>
                             <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i> Cari</button>
                              <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-log-out"></i> Logout</button>
@@ -81,27 +79,33 @@
                              </div>
                             <div class="panel-fooer" style="background-color: #d9edf7;"></div>
                 </div>
-             <div class="col-md-16" style="margin-bottom: 10px;">
-                <div class="panel-group" id="accordions">
-                	<h3>First--hhhah</h3>
-                	   <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
-                	<h3>Second</h3>
-                    	<div>Phasellus mattis tincidunt nibh.</div>
-                	<h3>Third</h3>
-                	   <div>Nam dui erat, auctor a, dignissim quis.</div>
-                   
-                </div>
             </div>
-            </div>
-         
             <div class="col-md-8">
-                 <div class="cta-text">
-                    <legend>
-                       <h2>
-                         <span>Welcome </span>To <span>App</span>lication Park<span>ING</span>
-                       </h2> 
-                    </legend>          
-                 </div>
+               <legend><h2>Data Customers</h2></legend>
+               <table class="table table-striped">
+                    <thead>
+                        <th>No</th>
+                        <th>Code</th>
+                        <th>Name</th>
+                        <th>Place Of Birth</th>
+                        <th>Date Of Birth</th>
+                        <th>Address</th>
+                        <th>Date Created</th>
+                        <th>Phone</th>
+                    </thead>
+                    <?php $no=0; foreach($query as $q): $no++;?>
+                    <tr>
+                        <td><?php echo $no;?></td>
+                        <td><?php echo $q->code;?></td>
+                        <td><?php echo $q->customersname;?></td>
+                        <td><?php echo $q->places;?></td>
+                        <td><?php echo $q->dateplace;?></td>
+                        <td><?php echo $q->address;?></td>
+                        <td><?php echo $q->datecreated;?></td>
+                        <td><?php echo $q->Phone;?></td>
+                    </tr>
+                    <?php endforeach;?>
+               </table>
             </div>
         </div>
      </div>
@@ -115,12 +119,12 @@
         				<div class="widget">
         					<h5 class="widgetheading">Get in touch with us</h5>
         					<address>
-        					<strong>Inohonk company Inc</strong><br/>
+        					<strong>Moderna company Inc</strong><br/>
         					 Modernbuilding suite V124, AB 01<br/>
         					 Someplace 16425 Earth </address>
         					<p>
         						<i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
-        						<i class="icon-envelope-alt"></i> safari@domainname.com
+        						<i class="icon-envelope-alt"></i> email@domainname.com
         					</p>
         				</div>
         			</div>
@@ -184,24 +188,10 @@
             </footer>
      
      <!-- end footer -->
-     
      <!-- begin Include scripts javascript -->
          <script src="<?php echo base_url('assets/js/jquery-1.10.2.js');?>"></script>
-         <script src="<?php echo base_url('assets/js/jquery.js');?>"></script>
-         <script src="<?php echo base_url('assets/js/jquery-ui.js');?>"></script>
          <script src="<?php echo base_url('assets/js/bootstrap.min.js');?>"></script>
      <!-- end Include scripts javascript -->
-     <!-- Begin create js by safari -->
-        <script>
-          
-              $( "#accordions" ).accordion();
-              $( "#datepicker" ).datepicker({
-            	inline: true
-            });
-                
-          
-        </script>
      
-     <!-- Begin create js by safari -->
 </body>    
 </html>
